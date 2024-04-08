@@ -1,5 +1,58 @@
 # Python Technical Challenge
 
+**README.md**
+
+## Sumário
+
+- [Requisitos](#requisitos)
+- [Instalação](#instalação)
+
+## Requisitos
+
+Certifique-se de ter o Python instalado com uma versão maior que 3.8. Você pode instalar os requisitos executando:
+
+```bash
+   pip install -r requirements.txt
+```
+
+## Instalação
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/josejonatasoliveira/bank_challenge.git
+   ```
+
+2. Acesse o diretório do projeto:
+
+   ```bash
+   cd bank_challenge
+   ```
+3. Crie um ambiente virtual:
+    ```bash
+   python -m venv .env
+   ```
+
+    Ative o ambiente virtual
+
+   ```bash
+   .env\\Scripts\\activate.bat
+   ```
+
+4. Instale os requisitos:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. Rodar
+Após os passos anteriores esta na hora de rodar a api, para isso bastar executar o seguinte comando.
+    ```bash
+   pip install "uvicorn[standard]"
+   ```
+Após a execução destes comandos a api estará rodando na porta 8000 do localhost.
+http://localhost:8000/docs
+
 ## Rodar os Testes
 No terminal selecione a pasta teste_python_sicred
 * Execute o comando
